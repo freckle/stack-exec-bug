@@ -37,6 +37,9 @@ resolver: lts-5.18
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - '.'
+- location:
+    git: https://github.com/ekmett/tagged.git
+    commit: 153a9efe1c66d3cb73a0e307165f8006ebb41362
 
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
